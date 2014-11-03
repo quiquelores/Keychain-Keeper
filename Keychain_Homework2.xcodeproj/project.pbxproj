@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F31CA8A319E70C1400498E33 /* keychain.png in Resources */ = {isa = PBXBuildFile; fileRef = F31CA8A219E70C1400498E33 /* keychain.png */; };
+		F31CA8A619E711A500498E33 /* KeychainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F31CA8A519E711A500498E33 /* KeychainModel.m */; };
+		F31CA8A919E7138C00498E33 /* SiteValue.m in Sources */ = {isa = PBXBuildFile; fileRef = F31CA8A819E7138C00498E33 /* SiteValue.m */; };
+		F31CA8AC19E71A6300498E33 /* NewRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F31CA8AB19E71A6300498E33 /* NewRecordViewController.m */; };
+		F31CA8B019E73F9800498E33 /* KeychainAccessIconX.png in Resources */ = {isa = PBXBuildFile; fileRef = F31CA8AF19E73F9800498E33 /* KeychainAccessIconX.png */; };
 		F388B0AA19DE0F0C0070258A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F388B0A919DE0F0C0070258A /* main.m */; };
 		F388B0AD19DE0F0C0070258A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F388B0AC19DE0F0C0070258A /* AppDelegate.m */; };
 		F388B0B019DE0F0C0070258A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F388B0AF19DE0F0C0070258A /* ViewController.m */; };
@@ -27,6 +32,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F31CA8A219E70C1400498E33 /* keychain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keychain.png; sourceTree = "<group>"; };
+		F31CA8A419E711A500498E33 /* KeychainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainModel.h; sourceTree = "<group>"; };
+		F31CA8A519E711A500498E33 /* KeychainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainModel.m; sourceTree = "<group>"; };
+		F31CA8A719E7138C00498E33 /* SiteValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiteValue.h; sourceTree = "<group>"; };
+		F31CA8A819E7138C00498E33 /* SiteValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiteValue.m; sourceTree = "<group>"; };
+		F31CA8AA19E71A6300498E33 /* NewRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewRecordViewController.h; sourceTree = "<group>"; };
+		F31CA8AB19E71A6300498E33 /* NewRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewRecordViewController.m; sourceTree = "<group>"; };
+		F31CA8AF19E73F9800498E33 /* KeychainAccessIconX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KeychainAccessIconX.png; sourceTree = "<group>"; };
 		F388B0A419DE0F0C0070258A /* Keychain_Homework2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keychain_Homework2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F388B0A819DE0F0C0070258A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F388B0A919DE0F0C0070258A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +98,12 @@
 				F388B0AC19DE0F0C0070258A /* AppDelegate.m */,
 				F388B0AE19DE0F0C0070258A /* ViewController.h */,
 				F388B0AF19DE0F0C0070258A /* ViewController.m */,
+				F31CA8AA19E71A6300498E33 /* NewRecordViewController.h */,
+				F31CA8AB19E71A6300498E33 /* NewRecordViewController.m */,
+				F31CA8A419E711A500498E33 /* KeychainModel.h */,
+				F31CA8A519E711A500498E33 /* KeychainModel.m */,
+				F31CA8A719E7138C00498E33 /* SiteValue.h */,
+				F31CA8A819E7138C00498E33 /* SiteValue.m */,
 				F388B0B119DE0F0C0070258A /* Main.storyboard */,
 				F388B0B419DE0F0C0070258A /* Images.xcassets */,
 				F388B0B619DE0F0C0070258A /* LaunchScreen.xib */,
@@ -96,6 +115,8 @@
 		F388B0A719DE0F0C0070258A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F31CA8A219E70C1400498E33 /* keychain.png */,
+				F31CA8AF19E73F9800498E33 /* KeychainAccessIconX.png */,
 				F388B0A819DE0F0C0070258A /* Info.plist */,
 				F388B0A919DE0F0C0070258A /* main.m */,
 			);
@@ -199,8 +220,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F31CA8B019E73F9800498E33 /* KeychainAccessIconX.png in Resources */,
 				F388B0B319DE0F0C0070258A /* Main.storyboard in Resources */,
 				F388B0B819DE0F0C0070258A /* LaunchScreen.xib in Resources */,
+				F31CA8A319E70C1400498E33 /* keychain.png in Resources */,
 				F388B0B519DE0F0C0070258A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +242,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F31CA8A919E7138C00498E33 /* SiteValue.m in Sources */,
 				F388B0B019DE0F0C0070258A /* ViewController.m in Sources */,
+				F31CA8AC19E71A6300498E33 /* NewRecordViewController.m in Sources */,
 				F388B0AD19DE0F0C0070258A /* AppDelegate.m in Sources */,
 				F388B0AA19DE0F0C0070258A /* main.m in Sources */,
+				F31CA8A619E711A500498E33 /* KeychainModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +369,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Keychain_Homework2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +380,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Keychain_Homework2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +440,7 @@
 				F388B0C919DE0F0C0070258A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F388B0CA19DE0F0C0070258A /* Build configuration list for PBXNativeTarget "Keychain_Homework2Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +449,7 @@
 				F388B0CC19DE0F0C0070258A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
